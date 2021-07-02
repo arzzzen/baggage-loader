@@ -19,8 +19,10 @@
   "main": "index.js",
   "peerDependencies": {
     "webpack": "1.x.x || 2.x.x",
-    "loader-utils": "0.x.x || 1.x.x",
     "source-map": "0.x.x"
+  },
+  "dependencies": {
+    "loader-utils": "0.x.x || 1.x.x",
   },
   "devDependencies": {
     "eslint": "^0.8.2",
